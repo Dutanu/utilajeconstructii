@@ -4,7 +4,7 @@ import About from "./components/About.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
 import EquipmentFilter from "./components/EquipementFilter.jsx";
-import Services from "./components/Services.jsx";
+
 
 function App() {
     return (

@@ -27,7 +27,7 @@
     transition: transform 0.3s ease;
 }
 .service-card__vanzari {
-    background: url("src/assets/vanzari.jpg");
+    background: url("../../public/vanzari.jpg");
     padding: 2rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     border-radius: 8px;
@@ -37,7 +37,7 @@
 }
 
 .service-card__inchirieri {
-    background: url("src/assets/inchirieri.jpg");
+    background: url("../../public/inchirieri.jpg");
     background-size: cover;
     padding: 2rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
