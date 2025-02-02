@@ -10,7 +10,11 @@ function Hero() {
                 <div className="hero-content">
                     <h1>EdyGrup</h1>
                     <p>Vanzari si inchirieri utilaje constructii</p>
-                    <a href="#contact" className="btn">+40 723 534 435</a>
+                    <a href="https://wa.me/40712345678?text=Salut!%20Am%20o%20întrebare."
+                       target="_blank"
+                       className="btn">
+                        +40 723 534 435
+                    </a>
                 </div>
             </section>
             <Services/>
