@@ -1,0 +1,12 @@
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.App {
+  overflow-x: hidden;
+  padding-top: 70px; /* spațiu pentru navbar-ul fix */
+}

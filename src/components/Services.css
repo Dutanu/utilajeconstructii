@@ -1,0 +1,82 @@
+/* components/Services.css */
+.services {
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.services .container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.services h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.service-card {
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.service-card__vanzari {
+    background: url("src/assets/vanzari.jpg");
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    animation: fadeInFromBack 1.5s ease-out forwards;
+
+}
+
+.service-card__inchirieri {
+    background: url("src/assets/inchirieri.jpg");
+    background-size: cover;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    animation: fadeInFromBack 1.5s ease-out forwards;
+}
+
+.service-card__inchirieri:hover {
+    transform: translateY(-5px);
+}
+
+.service-card__vanzari:hover {
+    transform: translateY(-5px);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@keyframes fadeInFromBack {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
